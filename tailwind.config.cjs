@@ -6,7 +6,7 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
 		fontFamily: {
-			body: ['', 'sans-serif'],
+			body: ['Urbanist', 'sans-serif'],
 		},
 
 		container: {
@@ -17,7 +17,8 @@ module.exports = {
 		extend: {
 			colors: {
 				brand: {
-					primary: '',
+					primary: '#003551',
+					secondary: '#01BFFD'
 				},
 			},
 			spacing: {

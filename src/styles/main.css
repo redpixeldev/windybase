@@ -6,7 +6,7 @@
 
 @layer base {
 	html {
-		@apply font-body antialiased;
+		@apply font-body antialiased text-brand-primary;
 	}
 
 	[x-cloak] {
