@@ -2,8 +2,17 @@
 
 ---
 
-<div>
-	<h1 class='mt-4 text-xl'>Home</h1>
-	<p>This is the Astro homepage page.</p>
-	<img src='/img/icon-home.png' />
+<div class="container">
+	<div class="bg-brand-primary px-5 sm:px-10 xl:px-12 py-10 sm:py-12 xl:py-16 rounded-2xl md:rounded-3xl">
+		<div class="flex flex-col xl:flex-row justify-between gap-8 xl:gap-16 items-center">
+			<div class="text-center xl:text-left">
+				<h3 class="text-3xl sm:text-4xl font-black -tracking-[0.02em] text-white pb-1">Subscribe to our newsletter</h3>
+				<p class="text-lg md:text-xl font-medium -tracking-[0.02em] text-white">Get notified when we add new templates, components, and more!</p>
+			</div>
+			<form class="relative w-full lg:w-4/5 xl:w-[45%]">
+				<input type="email" placeholder="Email" class="text-white bg-[#29556d] text-lg border-0 w-full rounded-xl pl-3 sm:pl-4 py-3 sm:py-4 pr-3 sm:pr-36 placeholder-white" >
+				<button class=" mt-1 sm:mt-0 w-full sm:w-auto sm:absolute text-white font-bold -tracking-[0.02em] text-lg bg-brand-secondary py-2 px-5 rounded-lg sm:right-2 sm:top-1/2 sm:-translate-y-1/2">Subscribe</button>
+			</form>
+		</div>
+	</div>
 </div>
