@@ -18,7 +18,8 @@ module.exports = {
 			colors: {
 				brand: {
 					primary: '#003551',
-					secondary: '#01BFFD'
+					secondary: '#01BFFD',
+					"blue": '#0094FF'
 				},
 			},
 			spacing: {
